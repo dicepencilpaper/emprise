@@ -40,17 +40,19 @@ As an example, Runah the Wanderer has the following professions:
 
 When your adventurer is trying to perform a task for which they have no knowledge, you will have to roll for success using the *d20* die.
 
-### Body and mind
+### Body and mind 
 
 Your adventurer also has two stats that determine their physical and mental resistance. These are *body* and *mind*. To set them, select a unique die for each stat, just like with professions: for adventurers, usually one of the stats will have a d6, and the other a d8. However, different to professions, a *higher die* means a better stat.
 
 #### Body
 
-This determines your adventurer's resistance to damage received and exhaustion. Every time your adventurer is the target of anything that causes bodily harm, you need to add up that attack number in your character sheet as *body hits*. The first time your adventurer receives damage, body hits would be 1, second time receiving damage it goes up to 2, and so on. After jotting this down, roll your *body* die. You need to roll a number higher than your hits to avoid being *physically wounded*. If you fail your roll, add 1 to your
+This determines your adventurer's resistance to damage received and exhaustion. There are two tracking stats related to body, *body hits (BH)* and *body wounds (BW)*. Every time your adventurer is the target of a successful attack (or anything that causes bodily harm), you need to add 1 to your BH score, meaning that the first time your adventurer receives damage, BH would be 1, second time receiving damage BH goes up to 2, and so on.
 
-When your adventurer is *physically wounded*, they will perform any actions at one cumulative die higher than their profession die. For example, if they have d8 for *adventurer*, all subsequent actions related to this profession will be performed with a d10 after the first time they are wounded, d12 after the second one, and d20 thereafter.
+After jotting this down, roll your body die. You need to roll a number higher than your current BH avoid receiving a body wound. If you roll equal or lower to your BH, you will add 1 to your current BW score. When your adventurer has 1 or more BW, they will perform any actions at one cumulative die higher than their profession die per each BW point. For example, if they have d8 for adventurer, all subsequent actions related to this profession will be performed with a d10 at 1 BW, d12 at 2 BW, and d20 at 3 or more BW.
 
-If your character gets hit a number of times greater than their *body* die value (for example, getting hit seven times when your *body* die is a d6), they will automatically be *unconscious* and out of commission.
+If your adventurer reaches a BW score higher than their body die value (for example, getting 7 BW when your body die is a d6), they will automatically be *unconscious* and out of commission.
+
+Body is also used to roll for strength and bodily resistance feats.
 
 #### Mind
 
@@ -62,9 +64,9 @@ Any activity or task that requires knowledge and skill is called an *action*. Ev
 
 | Difficulty | Max Success Value  |
 |------------|--------------------|
-| Easy       | 5                  |
+| Average    | 5                  |
 | ??         | 4                  |
-| Average    | 3                  |
+| ??         | 3                  |
 | ??         | 2                  |
 | Hard       | 1                  |
 
