@@ -8,26 +8,40 @@ This is a world of...
 ## The adventurer
 
 You participate in this world through your *adventurer*, a daring, courageous individual that is ready to face whatever fate throws at them! Your adventurer will have two to four _professions_, which determine the skills and abilities they possess. The number of professions picked is up to the player.
-
  
 ### Professions
 
-A profession encompasses a relatively wide skill set. Note that these skills and abilities are not expressly detailed; rather, use common sense and creativity when using these professions. For example, it is expected that someone with the profession of _musician_ is good at understanding musical instruments, composition, and knowledgeable of music history. But a creative use of this profession could enable them to be really good at persuading people, simply based on their experience as public performers. Be flexible and creative!
+A profession encompasses a relatively wide skill set. Here are a few examples for some professions:
 
-All adventurers have one basic profession, *adventurer*, which determines their combat prowess, their travel skills, ...
+- Metalsmith
+- Merchant
+- Thief
+- Explorer
+- Painter
+- Politician
+- Soldier
+- Musician
 
-To determine how proficient the adventurer is at each on of their professions, assign a die to each one based on how good you want the adventurer to be in that particular profession, with *d6* being way above average, all the way down to below average at *d12*. Each die assignment must be unique.
+ Note that professions do not have expressly detailed skills and abilities; rather, it is expected that everyone uses common sense and creativity when using professions. Does an action performed under a certain profession makes sense to everyone? Then it is valid! For example, it is expected that someone with the profession of _musician_ is good at understanding musical instruments, composition, and knowledgeable of music history. But a creative use of this profession could enable them to be really good at persuading people, simply based on their experience as public performers. Be flexible and creative!
+
+All adventurers have one basic profession, *adventurer*, which determines their proficiency in the following areas:
+
+- Combat prowess and skill with basic weapons. This does not include advanced martial weapons like a trebuchet, siege engines, and such.
+- Travel skills such as basic map reading, and a good sense of direction. 
+- Basic survival techniques like setting camp, building fires, cooking, fishing, small-prey hunting, and foraging.
+
+To determine how proficient the adventurer is at each on of their professions, assign a die to each one based on your personal preference, with *d6* being way above average, all the way down to below average at *d12*. Each die assignment must be unique.
 
 As an example, Runah the Wanderer has the following professions:
 
-- Adventurer (d8)
 - Explorer (d6)
+- Adventurer (d8)
 - Sailor (d12)
 - Hunter (d10)
 
 Note that there are no combat-specific professions in Runah's list. Does this means that they cannot handle a weapon effectively? They definitely can! As a hunter, Runah could be proficient with the bow, the dagger, and probably a sling. However, they are probably not good with swords and sword-fighting.
 
-When your adventurer is trying to execute a task for which they have no knowledge, you will have to roll for success using the *d20* die.
+When your adventurer is trying to perform a task for which they have no knowledge, you will have to roll for success using the *d20* die.
 
 ### Body and mind
 
@@ -40,7 +54,6 @@ This determines your adventurer's resistance to damage received and exhaustion. 
 When your adventurer is wounded, they will perform any actions at one cumulative die higher than their profession die. For example, if they have an *adventurer* die of d8, all actions related to this profession will be performed with a d10 after the first time they are wounded, d12 after the second one, and d20 thereafter.
 
 If your character gets hit a number of times greater than their *body* die value (for example, getting hit seven times when your *body* die is a d6), they will automatically be *unconscious* and out of commission.
-
 
 #### Mind
 
@@ -77,5 +90,3 @@ To set the difficulty level of the attack, we will compare the attack die agains
 | d20          | 1  | 1  | 1   | 1   | 2   |
 
 As an example, if your adventurer will use a d8 for their strike, and your opponent has a d10 as their attack die, you need to roll 1-3 to succeed on your attack. 
-
-
