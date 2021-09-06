@@ -46,31 +46,33 @@ Your adventurer also has two stats that determine their physical and mental resi
 
 #### Body
 
-This determines your adventurer's resistance to damage received and exhaustion. There are two tracking stats related to body, *body hits (BH)* and *body wounds (BW)*. Every time your adventurer is the target of a successful attack (or anything that causes bodily harm), you need to add 1 to your BH score, meaning that the first time your adventurer receives damage, BH would be 1, second time receiving damage BH goes up to 2, and so on.
+Body determines your adventurer's resistance to damage received and exhaustion. There are two tracking scores related to body, *body hits (BH)* and *body wounds (BW)*. Every time your adventurer is the target of a successful attack (or anything that causes bodily harm), add 1 to your BH score. This means that the first time your adventurer receives damage, BH would be 1, second time receiving damage BH goes up to 2, and so on.
 
-After jotting this down, roll your body die. You need to roll a number higher than your current BH avoid receiving a body wound. If you roll equal or lower to your BH, you will add 1 to your current BW score. When your adventurer has 1 or more BW, they will perform any actions at one cumulative die higher than their profession die per each BW point. For example, if they have d8 for adventurer, all subsequent actions related to this profession will be performed with a d10 at 1 BW, d12 at 2 BW, and d20 at 3 or more BW.
+After jotting this down, roll your body die. You need to roll a number higher than your current BH avoid receiving a body wound. If you roll equal or lower to your BH, you will add 1 to your current BW score. If your adventurer reaches a BW score higher than their body die value (for example, getting 7 BW when your body die is a d6), they will automatically be *unconscious* and out of commission.
 
-If your adventurer reaches a BW score higher than their body die value (for example, getting 7 BW when your body die is a d6), they will automatically be *unconscious* and out of commission.
-
-Body is also used to roll for strength and bodily resistance feats.
+>  As an option, When your adventurer has 1 or more BW, they will perform any physical actions at one cumulative die higher than their profession die per each BW point. For example, if they have d8 for adventurer, all subsequent actions related to this profession will be performed with a d10 at 1 BW, d12 at 2 BW, and d20 at 3 or more BW.
 
 #### Mind
 
-Similarly to body, a player will roll their mind die when they are the target of any attack or effect that might affect their mind and mental well-being.
+Similarly to body, a player will roll their mind die when they are the target of any attack or effect that might affect their mind and mental well-being. It also has two associated tracking scores, *mind hits (MH)* and *mind wounds (MW)*. When your adventurer is the target of a successful mental attack (via magic, potions, or any other thing that might hurt their psyche), add 1 to your MH score.
+
+After setting your MH, roll your mind die. If you roll higher than your MH, your adventurer avoid receiving a mind wound. If you roll equal or lower to your MH, your adventurer has been mentally wounded and you will add 1 to your current MW score. If your adventurer reaches a MW score higher than their mind die value, they will automatically be *unconscious* and out of commission.
+
+> As an option, when your adventurer has 1 or more HW, they will perform any mental actions at one cumulative die higher than their profession die per each HW point.
 
 ## Actions
 
-Any activity or task that requires knowledge and skill is called an *action*. Every action has a difficulty range, as shown below:
+Any activity or task that requires knowledge and skill is called an *action*. Every action has a difficulty range as shown below:
 
-| Difficulty | Max Success Value  |
-|------------|--------------------|
-| Average    | 5                  |
-| ??         | 4                  |
-| ??         | 3                  |
-| ??         | 2                  |
-| Hard       | 1                  |
+| Difficulty   | Max Success Value |
+|--------------|-------------------|
+| Average      | 5                 |
+| Complicated  | 4                 |
+| Difficult    | 3                 |
+| Brutal       | 2                 |
+| Unattainable | 1                 |
 
-The *max success value* column for each difficulty level determines the maximum value that needs to be rolled on a die to succeed at an action. For example, for an *average* action, you would need to roll 1 to 3, for a *hard* action, only a 1 would succeed, and for an easy action, rolling from 1 to 5 guarantees success.
+ The *max success value* column for each difficulty level determines the maximum value that needs to be rolled on a die to succeed at an action. For example, for an *average* action, you would succeed on a roll of 1-5, while for an *unattainable* action, only a 1 would succeed. It is expected that tasks that could be considered easier than average will succeed automatically, unless your adventurer is trying to perform under stressful or difficult circumstances. At that point, the coordinator will determine an appropriate difficulty level for the action.
 
 Actions include combat maneuvers. Speaking of which...
 
