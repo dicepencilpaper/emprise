@@ -34,24 +34,21 @@ To determine how proficient the adventurer is at each on of their professions, a
 
 As an example, Runah the Wanderer has the following professions:
 
-- Explorer (d6)
+- Hunter (d6)
 - Adventurer (d8)
-- Sailor (d12)
-- Hunter (d10)
-
-Note that there are no combat-specific professions in Runah's list. Does this means that they cannot handle a weapon effectively? They definitely can! As a hunter, Runah could be proficient with the bow, the dagger, and probably a sling. However, they are probably not good with swords and sword-fighting.
+- Sailor (d10)
 
 When your adventurer is trying to perform a task for which they have no knowledge, you will have to roll for success using the *d20* die.
 
 ### Body and mind
 
-Your adventurer also has two basic stats that determine their physical and mental resistance. These are called *body* and *mind*, and to set them, you need to select a unique die for each one just like with professions: for adventurers, usually one of the stats will have a d6, and the other a d8.
+Your adventurer also has two stats that determine their physical and mental resistance. These are *body* and *mind*. To set them, select a unique die for each stat, just like with professions: for adventurers, usually one of the stats will have a d6, and the other a d8. However, different to professions, a *higher die* means a better stat.
 
 #### Body
 
-This determines your adventurer's resistance to damage received and exhaustion. When your adventurer is the target of a successful attack (or anything else that could cause bodily harm), you roll the *body* die. The roll result needed to avoid being *wounded* is based on how many times your adventurer has been hit. The first time your character is hit, they need to roll more than 1 on their *body* die to avoid being wounded. The second time your character is hit, you need to roll more than 2, and so on.
+This determines your adventurer's resistance to damage received and exhaustion. Every time your adventurer is the target of anything that causes bodily harm, you need to add up that attack number in your character sheet as *body hits*. The first time your adventurer receives damage, body hits would be 1, second time receiving damage it goes up to 2, and so on. After jotting this down, roll your *body* die. You need to roll a number higher than your hits to avoid being *physically wounded*. If you fail your roll, add 1 to your
 
-When your adventurer is wounded, they will perform any actions at one cumulative die higher than their profession die. For example, if they have an *adventurer* die of d8, all actions related to this profession will be performed with a d10 after the first time they are wounded, d12 after the second one, and d20 thereafter.
+When your adventurer is *physically wounded*, they will perform any actions at one cumulative die higher than their profession die. For example, if they have d8 for *adventurer*, all subsequent actions related to this profession will be performed with a d10 after the first time they are wounded, d12 after the second one, and d20 thereafter.
 
 If your character gets hit a number of times greater than their *body* die value (for example, getting hit seven times when your *body* die is a d6), they will automatically be *unconscious* and out of commission.
 
