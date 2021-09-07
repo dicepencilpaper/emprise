@@ -5,9 +5,13 @@ Medieval fantasy role-playing game by Dice Pencil and paper.
 
 This is a world of...
 
+## Participants
+
+A session of A Daring Emprise is composed of one to four people that will be controlling their *adventurers*, and one player who is in charge of presenting the situations, scenes, and controlling the rest of the universe's entities. This player is known as the *coordinator*, as they take care of running the game in an orderly fashion and making sure things are fair for everyone.
+
 ## The adventurer
 
-You participate in this world through your *adventurer*, a daring, courageous individual that is ready to face whatever fate throws at them! Your adventurer will have two to four _professions_, which determine the skills and abilities they possess. The number of professions picked is up to the player.
+Asa player, you participate in this world through your *adventurer*, a daring, courageous individual that is ready to face whatever fate throws at them! Your adventurer will have two to four _professions_, which determine the skills and abilities they possess. The number of professions picked is up to the player.
  
 ### Professions
 
@@ -40,25 +44,26 @@ As an example, Runah the Wanderer has the following professions:
 
 When your adventurer is trying to perform a task for which they have no knowledge, you will have to roll for success using the *d20* die.
 
-### Body and Mind 
+### Wellbeing 
 
-Your adventurer also has two stats that determine their physical and mental resistance. These are *body* and *mind*. To set them, select a unique die for each stat, just like with professions: for adventurers, usually one of the stats will have a d6, and the other a d8. However, different to professions, a *higher die* means a better stat.
+The *wellbeing* die determines your adventurer's physical and mental resistance. Usually, your adventurer starts with **d8** as their wellbeing die. There are two tracking scores related to wellbeing, *hits* and *wounds*. Every time your adventurer is the target of a successful attack (or anything that causes bodily or mental harm), add 1 to your hits score. This means that the first time your adventurer receives damage, hits would be 1, second time receiving damage hits goes up to 2, and so on.
 
-#### Body
+After jotting this down, roll your wellbeing die. If you roll a number higher than your current hits, your adventurer avoids being wounded. If you roll equal or lower than your hits, you will add a certain amount to your current wounds score, based on the intensity of the attack.
 
-Body determines your adventurer's resistance to damage received and exhaustion. There are two tracking scores related to body, *body hits (BH)* and *body wounds (BW)*. Every time your adventurer is the target of a successful attack (or anything that causes bodily harm), add 1 to your BH score. This means that the first time your adventurer receives damage, BH would be 1, second time receiving damage BH goes up to 2, and so on.
+If your adventurer reaches a wounds score higher than their wellbeing die value (for example, getting 9 or more wounds when your wellbeing die is a d8), your adventurer will automatically be *unconscious* and out of commission.
 
-After jotting this down, roll your body die. You need to roll a number higher than your current BH avoid receiving a body wound. If you roll equal or lower to your BH, you will add 1 to your current BW score. If your adventurer reaches a BW score higher than their body die value (for example, getting 7 BW when your body die is a d6), they will automatically be *unconscious* and out of commission.
+#### Assigning your wellbeing die
 
->  OPTIONAL: When your adventurer has 1 or more BW, they will perform any physical actions at one cumulative die higher than their profession die per each BW point. For example, if they have d8 for adventurer, all subsequent actions related to this profession will be performed with a d10 at 1 BW, d12 at 2 BW, and d20 at 3 or more BW.
+There are two methods for this. The first one is to roll randomly for it wusing a d20, and consulting the table below:
 
-#### Mind
+| Roll 1d20 | Wellbeing Die |
+|-----------|---------------|
+| 1-10      | d6            |
+| 11-15     | d8            |
+| 16-18     | d10           |
+| 19-20     | d12           |
 
-Similarly to body, a player will roll their mind die when they are the target of any attack or effect that might affect their mind and mental well-being. It also has two associated tracking scores, *mind hits (MH)* and *mind wounds (MW)*. When your adventurer is the target of a successful mental attack (via magic, potions, or any other thing that might hurt their psyche), add 1 to your MH score.
-
-After setting your MH, roll your mind die. If you roll higher than your MH, your adventurer avoid receiving a mind wound. If you roll equal or lower to your MH, your adventurer has been mentally wounded and you will add 1 to your current MW score. If your adventurer reaches a MW score higher than their mind die value, they will automatically be *unconscious* and out of commission.
-
-> OPTIONAL: When your adventurer has 1 or more HW, they will perform any mental actions at one cumulative die higher than their profession die per each HW point.
+The second alternative is to have the coordinator assign a die value based on your adventurer's professions; someone with a focus on highly-physical activities such as a soldier could have a high wellbeing die, while someone that comes from a very sedentary lifestyle would have a lower die.
 
 ## Actions
 
@@ -105,18 +110,8 @@ The difficulty level of the attack is set by compating your attack die against y
 
 As an example, if your adventurer uses a d8 for their strike, and your opponent has a d10 as their attack die, you need to roll 1-5 to succeed on your attack. 
 
+The target of an attack, if still conscious and capable, can immediately respond back to the attack, even if it is not their turn in terms of initiative. This makes combat more dynamic, dangerous, and unpredictable. Even after responding to an attack, they will still get to play their turn as determined by initiative, and in the same manner, their target will be able to respond back to the attack.
+
 ### Armor and shield
 
-Armor, whether worn or natural, has an *armor bonus* from 1 to 5, and you add that number to your body hits rolls, as a representation of how it protects the adventurer from damage. Armor is rated as follows:
-
-| Armor             | Armor Bonus |
-|-------------------|-------------|
-| Leather, padded   | 1           |
-| Chain, scale mail | 2           |
-| Full plate        | 3           |
-| Magical or other  | 4-5         |
-
-Using a shield increases the attack difficulty by 1, regardless of shield type.
-
-### Weapons
-
+Your adventurer can wear armor and wield a shield. Light armor increases your wellbeing rolls by +1, and heavy armor does the same by +2. Wearing a shield reduces the attack roll value by -1.
