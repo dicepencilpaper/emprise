@@ -40,7 +40,7 @@ As an example, Runah the Wanderer has the following professions:
 
 When your adventurer is trying to perform a task for which they have no knowledge, you will have to roll for success using the *d20* die.
 
-### Body and mind 
+### Body and Mind 
 
 Your adventurer also has two stats that determine their physical and mental resistance. These are *body* and *mind*. To set them, select a unique die for each stat, just like with professions: for adventurers, usually one of the stats will have a d6, and the other a d8. However, different to professions, a *higher die* means a better stat.
 
@@ -78,7 +78,17 @@ Actions include combat maneuvers. Speaking of which...
 
 ## Combat
 
-To perform an attack, you use the *adventurer* profession, unless your adventurer has another profession that might guarantee a better result based on the weapon or method being used to make the attack. For example, an adventurer that is better as a *hunter* than as an *adventurer* might then use their *hunter* die when using a weapon such as a longbow.
+Actual combat consists of multiple actions taking place simultaneously. However, this is extremely difficult (if not impossible) to achieve in a game. Therefore, we will use a system composed of *rounds* and *turns*, with the order set through *initiative*.
+
+### Initiative
+
+At the start of combat, all players and the coordinator will roll 1d8 each. The action order will then be established by the roll results in ascending order. The coordinator must take care to annotate the initiative order for reference.
+
+### Rounds and turns
+
+Once the initiative is set, combat begins! This is the start of the round, which encompasses all the plays by all participants. 
+
+To perform an attack, you use the *adventurer* profession, unless they have another profession that might guarantee a better result based on the weapon or method being used to make the attack. For example, an adventurer that is better as a *hunter* than as an *adventurer* can use their *hunter* die when using a weapon such as a longbow.
 
 To set the difficulty level of the attack, we will compare the attack die against their opponent's attack die, and use the table below to determine the maximum success value.
 
