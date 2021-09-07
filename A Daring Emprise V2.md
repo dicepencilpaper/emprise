@@ -50,7 +50,7 @@ Body determines your adventurer's resistance to damage received and exhaustion. 
 
 After jotting this down, roll your body die. You need to roll a number higher than your current BH avoid receiving a body wound. If you roll equal or lower to your BH, you will add 1 to your current BW score. If your adventurer reaches a BW score higher than their body die value (for example, getting 7 BW when your body die is a d6), they will automatically be *unconscious* and out of commission.
 
->  As an option, When your adventurer has 1 or more BW, they will perform any physical actions at one cumulative die higher than their profession die per each BW point. For example, if they have d8 for adventurer, all subsequent actions related to this profession will be performed with a d10 at 1 BW, d12 at 2 BW, and d20 at 3 or more BW.
+>  OPTIONAL: When your adventurer has 1 or more BW, they will perform any physical actions at one cumulative die higher than their profession die per each BW point. For example, if they have d8 for adventurer, all subsequent actions related to this profession will be performed with a d10 at 1 BW, d12 at 2 BW, and d20 at 3 or more BW.
 
 #### Mind
 
@@ -58,7 +58,7 @@ Similarly to body, a player will roll their mind die when they are the target of
 
 After setting your MH, roll your mind die. If you roll higher than your MH, your adventurer avoid receiving a mind wound. If you roll equal or lower to your MH, your adventurer has been mentally wounded and you will add 1 to your current MW score. If your adventurer reaches a MW score higher than their mind die value, they will automatically be *unconscious* and out of commission.
 
-> As an option, when your adventurer has 1 or more HW, they will perform any mental actions at one cumulative die higher than their profession die per each HW point.
+> OPTIONAL: When your adventurer has 1 or more HW, they will perform any mental actions at one cumulative die higher than their profession die per each HW point.
 
 ## Actions
 
@@ -105,8 +105,18 @@ The difficulty level of the attack is set by compating your attack die against y
 
 As an example, if your adventurer uses a d8 for their strike, and your opponent has a d10 as their attack die, you need to roll 1-5 to succeed on your attack. 
 
-### Wounds & armor
+### Armor and shield
 
-The target's body determines their resistance to damage received. There are two tracking scores related to body, *body hits (BH)* and *body wounds (BW)*. Every time someone is successful attack (or anything that causes bodily harm), add 1 to your BH score. This means that the first time your adventurer receives damage, BH would be 1, second time receiving damage BH goes up to 2, and so on.
+Armor, whether worn or natural, has an *armor bonus* from 1 to 5, and you add that number to your body hits rolls, as a representation of how it protects the adventurer from damage. Armor is rated as follows:
 
-After jotting this down, roll your body die. You need to roll a number higher than your current BH avoid receiving a body wound. If you roll equal or lower to your BH, you will add 1 to your current BW score. If your adventurer reaches a BW score higher than their body die value (for example, getting 7 BW when your body die is a d6), they will automatically be *unconscious* and out of commission.
+| Armor             | Armor Bonus |
+|-------------------|-------------|
+| Leather, padded   | 1           |
+| Chain, scale mail | 2           |
+| Full plate        | 3           |
+| Magical or other  | 4-5         |
+
+Using a shield increases the attack difficulty by 1, regardless of shield type.
+
+### Weapons
+
