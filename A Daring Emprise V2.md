@@ -86,18 +86,27 @@ At the start of combat, all players and the coordinator will roll 1d8 each. The 
 
 ### Rounds and turns
 
-Once the initiative is set, combat begins! This is the start of the round, which encompasses all the plays by all participants. 
+Once the initiative is set, combat begins! This is the start of the round, which encompasses all the plays by all participants. Each player participates in their turn, as set by the initiative order.
+
+### Attacks
 
 To perform an attack, you use the *adventurer* profession, unless they have another profession that might guarantee a better result based on the weapon or method being used to make the attack. For example, an adventurer that is better as a *hunter* than as an *adventurer* can use their *hunter* die when using a weapon such as a longbow.
 
-To set the difficulty level of the attack, we will compare the attack die against their opponent's attack die, and use the table below to determine the maximum success value.
+The difficulty level of the attack is set by compating your attack die against your opponent's attack die, and use the table below to determine the maximum success value.
 
-| Attacker Die | d6 | d8 | d10 | d12 | d20 | 
+| Opponent =>  | d6 | d8 | d10 | d12 | d20 | 
 |--------------|----|----|-----|-----|-----|
-| d6           | 2  | 3  | 4   | 5   | 5   |
-| d8           | 1  | 2  | 3   | 4   | 5   |
-| d10          | 1  | 1  | 2   | 3   | 4   |
-| d12          | 1  | 1  | 1   | 2   | 3   |
-| d20          | 1  | 1  | 1   | 1   | 2   |
+| **Attacker** |    |    |     |     |     | 
+| d6           | 4  | 5  | 5   | 5   | 5   |
+| d8           | 3  | 4  | 5   | 5   | 5   |
+| d10          | 2  | 3  | 4   | 5   | 5   |
+| d12          | 1  | 2  | 3   | 4   | 5   |
+| d20          | 1  | 1  | 2   | 3   | 4   |
 
-As an example, if your adventurer will use a d8 for their strike, and your opponent has a d10 as their attack die, you need to roll 1-3 to succeed on your attack. 
+As an example, if your adventurer uses a d8 for their strike, and your opponent has a d10 as their attack die, you need to roll 1-5 to succeed on your attack. 
+
+### Wounds & armor
+
+The target's body determines their resistance to damage received. There are two tracking scores related to body, *body hits (BH)* and *body wounds (BW)*. Every time someone is successful attack (or anything that causes bodily harm), add 1 to your BH score. This means that the first time your adventurer receives damage, BH would be 1, second time receiving damage BH goes up to 2, and so on.
+
+After jotting this down, roll your body die. You need to roll a number higher than your current BH avoid receiving a body wound. If you roll equal or lower to your BH, you will add 1 to your current BW score. If your adventurer reaches a BW score higher than their body die value (for example, getting 7 BW when your body die is a d6), they will automatically be *unconscious* and out of commission.
