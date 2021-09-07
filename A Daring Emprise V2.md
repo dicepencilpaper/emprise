@@ -95,18 +95,16 @@ Once the initiative is set, combat begins! This is the start of the round, which
 
 ### Attacks
 
-To perform an attack, you use the *adventurer* profession, unless they have another profession that might guarantee a better result based on the weapon or method being used to make the attack. For example, an adventurer that is better as a *hunter* than as an *adventurer* can use their *hunter* die when using a weapon such as a longbow.
-
-The difficulty level of the attack is set by compating your attack die against your opponent's attack die, and use the table below to determine the maximum success value.
+To perform an attack, you use the *adventurer* die roll. The difficulty level of the attack is set by comparing your attack die against your opponent's attack die, and use the table below to determine the maximum success value.
 
 | Opponent =>  | d6 | d8 | d10 | d12 | d20 | 
 |--------------|----|----|-----|-----|-----|
 | **Attacker** |    |    |     |     |     | 
-| d6           | 4  | 5  | 5   | 5   | 5   |
-| d8           | 3  | 4  | 5   | 5   | 5   |
-| d10          | 2  | 3  | 4   | 5   | 5   |
-| d12          | 1  | 2  | 3   | 4   | 5   |
-| d20          | 1  | 1  | 2   | 3   | 4   |
+| d6           | 3  | 4  | 5   | 5   | 5   |
+| d8           | 2  | 3  | 4   | 5   | 5   |
+| d10          | 1  | 2  | 3   | 4   | 5   |
+| d12          | 1  | 1  | 2   | 3   | 4   |
+| d20          | 1  | 1  | 1   | 2   | 3   |
 
 As an example, if your adventurer uses a d8 for their strike, and your opponent has a d10 as their attack die, you need to roll 1-5 to succeed on your attack. 
 
