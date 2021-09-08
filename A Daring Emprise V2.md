@@ -65,6 +65,18 @@ There are two methods for this. The first one is to roll 1d10 and consulting the
 
 The second alternative is to have the coordinator assign a die value based on your adventurer's professions; someone with a focus on highly-physical activities such as a soldier could have a high wellbeing die, while someone that comes from a very sedentary lifestyle would have a lower die.
 
+### Equipment, weapons, and armor
+
+Your adventurer needs to be equipped for the dangers they will face exploring the unknown! Make sure to give your character gear that matches their professions and style.
+
+#### Weapons
+
+There are two types of weapons: *common* and *martial*. A regular weapon inflicts 1 wound, while a martial weapon inflicts 2. Here are some regular weapons:
+
+- Dagger
+- Hand axe
+- Short sword
+
 ## Actions
 
 Any activity or task that requires knowledge and skill is called an *action*. Every action has a difficulty range as shown below:
@@ -85,7 +97,18 @@ Actual combat consists of multiple actions taking place simultaneously. However,
 
 ### Initiative
 
-At the start of combat, all players and the coordinator will roll 1d8 each. The action order will then be established by the roll results in ascending order. The coordinator must take care to annotate the initiative order for reference.
+At the start of combat, all players and the coordinator will roll a die as specified in the following table:
+
+| Factor                              | Initiative Die |
+|-------------------------------------|----------------|
+| Unarmored                           | d12            |
+| Light armor (padded, leather)       | d10            |
+| Heavy armor (chainmail and heavier) | d8             |
+| Wounded                             | d6             |
+
+The coordinator will ideally roll for each monster group, although they can choose to roll initiative for each opponent if they wish to.
+
+The action order will then be established by the roll results in ascending order. In the case of a tie, the players can choose who goes first. If the tie is between a player and any of the coordinator's group of enemies, the player has the advantage. The coordinator must take care to annotate the initiative order for reference.
 
 ### Rounds and turns
 
@@ -93,7 +116,7 @@ Once the initiative is set, combat begins! This is the start of the round, which
 
 ### Attacks
 
-To perform an attack, you use the *adventurer* die roll. The difficulty level of the attack is set by the target's *defense* stat, which goes from 1 to 5. This defense stat is modified by things such as armor, shields, and any other modifiers that might apply, as explained in the *Defense* segment below.
+To perform an attack, you use the *adventurer* die roll. The difficulty level of the attack is set by the target's *defense* stat, which goes from 2 to 5. This defense stat is modified by things such as armor, shields, and any other modifiers that might apply, as explained in the *Defense* segment below. Regardless of the target's defense, a roll of 1 will always hit a target under regular circumstances. 
 
 The target of an attack, if still conscious and capable, can immediately strike back in return even if it is not their turn in terms of initiative. This makes combat more dynamic, dangerous, and unpredictable. Even after responding to an attack, they will still get to play their turn as determined by initiative, and in the same manner, their target will be able to respond back to the attack.
 
@@ -109,6 +132,5 @@ As specified above, the defense stat establishes how difficult it is for your ad
 | Partial cover (at least 50%)        | -2                |
 | Completely covered                  | Cannot hit        |
 
-### Armor and shield
+These are basic factors that affect defense. There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristics.
 
-Your adventurer can wear armor and wield a shield. Light armor increases your wellbeing rolls by +1, and heavy armor does the same by +2. Wearing a shield reduces the attack roll value by -1.
