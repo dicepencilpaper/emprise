@@ -101,10 +101,10 @@ At the start of combat, all players and the coordinator will roll a die as speci
 
 | Factor                              | Initiative Die |
 |-------------------------------------|----------------|
-| Unarmored                           | d12            |
-| Light armor (padded, leather)       | d10            |
-| Heavy armor (chainmail and heavier) | d8             |
-| Wounded                             | d6             |
+| Unarmored                           | d6            |
+| Light armor (padded, leather)       | d8           |
+| Heavy armor (chainmail and heavier) | d10           |
+| Wounded                             | d12            |
 
 The coordinator will ideally roll for each monster group, although they can choose to roll initiative for each opponent if they wish to.
 
