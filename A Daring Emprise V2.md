@@ -54,14 +54,14 @@ If your adventurer reaches a wounds score higher than their wellbeing die value 
 
 #### Assigning your wellbeing die
 
-There are two methods for this. The first one is to roll randomly for it wusing a d20, and consulting the table below:
+There are two methods for this. The first one is to roll 1d10 and consulting the table below:
 
-| Roll 1d20 | Wellbeing Die |
+| Roll 1d10 | Wellbeing Die |
 |-----------|---------------|
-| 1-10      | d6            |
-| 11-15     | d8            |
-| 16-18     | d10           |
-| 19-20     | d12           |
+| 1-3       | d6            |
+| 4-7       | d8            |
+| 8-9       | d10           |
+| 10        | d12           |
 
 The second alternative is to have the coordinator assign a die value based on your adventurer's professions; someone with a focus on highly-physical activities such as a soldier could have a high wellbeing die, while someone that comes from a very sedentary lifestyle would have a lower die.
 
@@ -69,17 +69,15 @@ The second alternative is to have the coordinator assign a die value based on yo
 
 Any activity or task that requires knowledge and skill is called an *action*. Every action has a difficulty range as shown below:
 
-| Difficulty   | Max Success Value |
-|--------------|-------------------|
-| Average      | 5                 |
-| Complicated  | 4                 |
-| Difficult    | 3                 |
-| Brutal       | 2                 |
-| Unattainable | 1                 |
+| Difficulty   | Success Value |
+|--------------|---------------|
+| Average      | 5             |
+| Complicated  | 4             |
+| Difficult    | 3             |
+| Brutal       | 2             |
+| Unattainable | 1             |
 
- The *max success value* column for each difficulty level determines the maximum value that needs to be rolled on a die to succeed at an action. For example, for an *average* action, you would succeed on a roll of 1-5, while for an *unattainable* action, only a 1 would succeed. It is expected that tasks that could be considered easier than average will succeed automatically, unless your adventurer is trying to perform under stressful or difficult circumstances. At that point, the coordinator will determine an appropriate difficulty level for the action.
-
-Actions include combat maneuvers. Speaking of which...
+ The *success value (SV)* column for each difficulty level determines the highest value that needs to be rolled to succeed at an action. For example, for an *average* action, you would succeed on a roll of 1-5, while for an *unattainable* action, only a 1 would succeed. It is expected that tasks that could be considered easier than average will succeed automatically, unless your adventurer is trying to perform under stressful or difficult circumstances. At that point, the coordinator will determine an appropriate difficulty level for the action.
 
 ## Combat
 
@@ -95,20 +93,21 @@ Once the initiative is set, combat begins! This is the start of the round, which
 
 ### Attacks
 
-To perform an attack, you use the *adventurer* die roll. The difficulty level of the attack is set by comparing your attack die against your opponent's attack die, and use the table below to determine the maximum success value.
+To perform an attack, you use the *adventurer* die roll. The difficulty level of the attack is set by the target's *defense* stat, which goes from 1 to 5. This defense stat is modified by things such as armor, shields, and any other modifiers that might apply, as explained in the *Defense* segment below.
 
-| Opponent =>  | d6 | d8 | d10 | d12 | d20 | 
-|--------------|----|----|-----|-----|-----|
-| **Attacker** |    |    |     |     |     | 
-| d6           | 3  | 4  | 5   | 5   | 5   |
-| d8           | 2  | 3  | 4   | 5   | 5   |
-| d10          | 1  | 2  | 3   | 4   | 5   |
-| d12          | 1  | 1  | 2   | 3   | 4   |
-| d20          | 1  | 1  | 1   | 2   | 3   |
+The target of an attack, if still conscious and capable, can immediately strike back in return even if it is not their turn in terms of initiative. This makes combat more dynamic, dangerous, and unpredictable. Even after responding to an attack, they will still get to play their turn as determined by initiative, and in the same manner, their target will be able to respond back to the attack.
 
-As an example, if your adventurer uses a d8 for their strike, and your opponent has a d10 as their attack die, you need to roll 1-5 to succeed on your attack. 
+### Defense
 
-The target of an attack, if still conscious and capable, can immediately respond back to the attack, even if it is not their turn in terms of initiative. This makes combat more dynamic, dangerous, and unpredictable. Even after responding to an attack, they will still get to play their turn as determined by initiative, and in the same manner, their target will be able to respond back to the attack.
+As specified above, the defense stat establishes how difficult it is for your adventurer to hit a target in combat, as well as how difficult it is for your adventurer to be hit. The base value for this stat is 5, which in human terms is someone with no armor or any other type of protection, and this number is reduced by the following cummulative factors:
+
+| Factor                              | Defense Reduction |
+|-------------------------------------|-------------------|
+| Light armor (padded, leather)       | -1                |
+| Heavy armor (chainmail and heavier) | -2                |
+| Shield (any size)                   | -1                |
+| Partial cover (at least 50%)        | -2                |
+| Completely covered                  | Cannot hit        |
 
 ### Armor and shield
 
