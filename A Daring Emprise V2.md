@@ -46,11 +46,11 @@ When your adventurer is trying to perform a task for which they have no knowledg
 
 ### Wellbeing 
 
-The *wellbeing* die determines your adventurer's physical and mental resistance. Usually, your adventurer starts with **d8** as their wellbeing die. There are two tracking scores related to wellbeing, *hits* and *wounds*. Every time your adventurer is the target of a successful attack (or anything that causes bodily or mental harm), add 1 to your hits score. This means that the first time your adventurer receives damage, hits would be 1, second time receiving damage hits goes up to 2, and so on.
+The *wellbeing* die determines your adventurer's physical and mental resistance. Usually, your adventurer starts with **d8** as their wellbeing die. There are two tracking scores related to wellbeing, *hit points (HP)* and *wound points (WP)*. Every time your adventurer is the target of a successful attack (or anything that causes bodily or mental harm), add 1 to your HP score. This means that the first time your adventurer receives damage, HP would be 1, second time receiving damage HP goes up to 2, and so on.
 
-After jotting this down, roll your wellbeing die. If you roll a number higher than your current hits, your adventurer avoids being wounded. If you roll equal or lower than your hits, you will add a certain amount to your current wounds score, based on the intensity of the attack.
+After jotting this down, roll your wellbeing die. If you roll a number higher than your current HP, your adventurer avoids being wounded, otherwise, you have to add a certain amount to your current WP score based on the attack damage rating.
 
-If your adventurer reaches a wounds score higher than their wellbeing die value (for example, getting 9 or more wounds when your wellbeing die is a d8), your adventurer will automatically be *unconscious* and out of commission.
+If your adventurer reaches a WP score higher than their wellbeing die value (for example, reching 9 or more wound points when your wellbeing die is a d8), your adventurer will automatically be *unconscious* and out of commission.
 
 #### Assigning your wellbeing die
 
@@ -63,19 +63,31 @@ There are two methods for this. The first one is to roll 1d10 and consulting the
 | 8-9       | d10           |
 | 10        | d12           |
 
-The second alternative is to have the coordinator assign a die value based on your adventurer's professions; someone with a focus on highly-physical activities such as a soldier could have a high wellbeing die, while someone that comes from a very sedentary lifestyle would have a lower die.
+The second alternative is to have the coordinator assign a die value based on your adventurer's professions. As an example, an adventurer with a profession that focuses on highly physical activities such as a soldier could have a high wellbeing die, while someone that comes from a very sedentary lifestyle like a scholar would have a lower die.
 
-### Equipment, weapons, and armor
+### Weapons, armor, & equipment
 
-Your adventurer needs to be equipped for the dangers they will face exploring the unknown! Make sure to give your character gear that matches their professions and style.
+Your adventurer needs to be equipped for the dangers they will face exploring the unknown! Make sure to give your character gear that matches their professions and style. 
 
 #### Weapons
 
-There are two types of weapons: *common* and *martial*. A regular weapon inflicts 1 wound, while a martial weapon inflicts 2. Here are some regular weapons:
+There are two types of weapons: *light (L)*, *heavy (H)* and *martial (M)*. A light weapon inflicts 1 WP, a heavy weapon inflicts 2 WP, and a martial weapon inflicts 3 WP. 
 
-- Dagger
-- Hand axe
-- Short sword
+| Weapon               | Type |
+|----------------------|------|
+| Dagger               | L    |
+| Hand axe             | L    |
+| Short sword          | L    |
+| Hammer               | L    |
+| Sling                | L    |
+| Long sword           | H    |
+| Battle axe           | H    |
+| Warhammer            | H    |
+| Mace                 | H    |
+| Bow                  | H    |
+| Two-handed sword     | M    |
+| Great axe            | M    |
+| Crossbow             | M    |
 
 ## Actions
 
