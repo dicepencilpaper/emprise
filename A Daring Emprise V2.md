@@ -67,27 +67,50 @@ The second alternative is to have the coordinator assign a die value based on yo
 
 ### Weapons, armor, & equipment
 
-Your adventurer needs to be equipped for the dangers they will face exploring the unknown! Make sure to give your character gear that matches their professions and style. 
+Your adventurer needs to be equipped for the dangers they will face exploring the unknown! Make sure to give your character gear that matches their professions and style.
+
+Most inventory items occupy *inventory slots (IS)*, which is a representation of both weight and volume. Some really light and/or small items will have an IS value of 0. To determine how many slots your adventurer has available, multiply your wellbeing die value by 2. For example, if your adventurer has a d8 for wellbeing, they will have 16 slots available for inventory.
 
 #### Weapons
 
-There are two types of weapons: *light (L)*, *heavy (H)* and *martial (M)*. A light weapon inflicts 1 WP, a heavy weapon inflicts 2 WP, and a martial weapon inflicts 3 WP. 
+There are two types of weapons: *light (L)*, *heavy (H)* and *martial (M)*. A light weapon inflicts 1 WP, a heavy weapon inflicts 2 WP, and a martial weapon inflicts 3 WP. Martial weapons can only be used by those who have a profession that relates to the military or other similar experience, like a bounty hunter. 
 
-| Weapon               | Type |
-|----------------------|------|
-| Dagger               | L    |
-| Hand axe             | L    |
-| Short sword          | L    |
-| Hammer               | L    |
-| Sling                | L    |
-| Long sword           | H    |
-| Battle axe           | H    |
-| Warhammer            | H    |
-| Mace                 | H    |
-| Bow                  | H    |
-| Two-handed sword     | M    |
-| Great axe            | M    |
-| Crossbow             | M    |
+| Weapon               | Type | IS |
+|----------------------|------|----|
+| Dagger               | L    | 1  |
+| Hand axe             | L    | 1  |
+| Short sword          | L    | 1  |
+| Hammer               | L    | 1  |
+| Sling                | L    | 0  |
+| Long sword           | H    | 2  |
+| Battle axe           | H    | 2  |
+| Warhammer            | H    | 2  |
+| Mace                 | H    | 2  |
+| Bow                  | H    | 1  |
+| Two-handed sword     | M    | 3  |
+| Great axe            | M    | 3  |
+| Crossbow             | M    | 2  |
+
+#### Armor
+
+Your adventurer might wear armor to be protected from combat damage. Armor makes it more difficult to be wounded in combat or other dangerous situations by reducing your adventurer's *defense* score. This is explained in detail in the *Combat* section below.
+
+Similar to weapons, armor has light, heavy, and martial types, and just like with weapons, only adventurers with a profession that requires extensive combat training can wear martial type armor.
+
+| Armor                         | Defense Reduction | IS |
+|-------------------------------|-------------------|----|
+| Light (padded, leather)       | -1                | 2  |
+| Heavy (chainmail, scale mail) | -2                | 4  |
+| Martial (plate mail)          | -3                | 8  |
+| Shield (any size)             | -1                | 3  |
+
+#### Gear
+
+In addition to weapons, your adventurer needs some gear that will keep them safe in their travels, as well as keeping them fed and hydrated. What follows is some basic inventory items that every adventurer can use.
+
+| Item                          | IS |
+|-------------------------------|----|
+| Light (padded, leather)       | 2  |
 
 ## Actions
 
@@ -136,13 +159,6 @@ The target of an attack, if still conscious and capable, can immediately strike 
 
 As specified above, the defense stat establishes how difficult it is for your adventurer to hit a target in combat, as well as how difficult it is for your adventurer to be hit. The base value for this stat is 5, which in human terms is someone with no armor or any other type of protection, and this number is reduced by the following cummulative factors:
 
-| Factor                              | Defense Reduction |
-|-------------------------------------|-------------------|
-| Light armor (padded, leather)       | -1                |
-| Heavy armor (chainmail and heavier) | -2                |
-| Shield (any size)                   | -1                |
-| Partial cover (at least 50%)        | -2                |
-| Completely covered                  | Cannot hit        |
 
 These are basic factors that affect defense. There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristics.
 
