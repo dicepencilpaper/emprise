@@ -136,9 +136,9 @@ At the start of combat, all players and the coordinator will roll a die as speci
 
 | Factor                              | Initiative Die |
 |-------------------------------------|----------------|
-| Unarmored                           | d6            |
-| Light armor (padded, leather)       | d8           |
-| Heavy armor (chainmail and heavier) | d10           |
+| Unarmored                           | d6             |
+| Light armor (padded, leather)       | d8             |
+| Heavy armor (chainmail and heavier) | d10            |
 | Wounded                             | d12            |
 
 The coordinator will ideally roll for each monster group, although they can choose to roll initiative for each opponent if they wish to.
@@ -159,6 +159,9 @@ The target of an attack, if still conscious and capable, can immediately strike 
 
 As specified above, the defense stat establishes how difficult it is for your adventurer to hit a target in combat, as well as how difficult it is for your adventurer to be hit. The base value for this stat is 5, which in human terms is someone with no armor or any other type of protection, and this number is reduced by the following cummulative factors:
 
+- Armor: As specified in the Equipment -> Armor section above, each armor type reduces the defense by a specified amount.
+- Cover: Someone behind 50% or more cover will reduce their defense by -2 in addition to any other benefits such as armor.
+- There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristics.
 
-These are basic factors that affect defense. There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristics.
+#### Death
 
