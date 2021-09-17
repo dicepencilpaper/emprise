@@ -3,7 +3,7 @@ Medieval fantasy role-playing game by Dice Pencil and paper.
 
 ## Welcome, daring adventurer!
 
-This is a world of...
+This is a world of low fantasy and high stakes! Take your adventurer to dangerous quests into dark caves, mysterious dungeons, mystical towers, and more. It is a world of low technology, warring kindgoms, and dangerous monsters lurking everywhere. Be courageous, be brave, don your armor, and create stories that will be retold for ages!
 
 ## Participants
 
