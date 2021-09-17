@@ -46,11 +46,7 @@ When your adventurer is trying to perform a task for which they have no knowledg
 
 ### Wellbeing 
 
-The *wellbeing* die determines your adventurer's physical and mental resistance. Usually, your adventurer starts with **d8** as their wellbeing die. There are two tracking scores related to wellbeing, *hit points (HP)* and *wound points (WP)*. Every time your adventurer is the target of a successful attack (or anything that causes bodily or mental harm), add 1 to your HP score. This means that the first time your adventurer receives damage, HP would be 1, second time receiving damage HP goes up to 2, and so on.
-
-After jotting this down, roll your wellbeing die. If you roll a number higher than your current HP, your adventurer avoids being wounded, otherwise, you have to add a certain amount to your current WP score based on the attack damage rating.
-
-If your adventurer reaches a WP score higher than their wellbeing die value (for example, reching 9 or more wound points when your wellbeing die is a d8), your adventurer will automatically be *unconscious* and out of commission.
+The *wellbeing* die determines your adventurer's physical and mental resistance. Usually, your adventurer starts with **d8** as their wellbeing die. 
 
 #### Assigning your wellbeing die
 
@@ -73,23 +69,25 @@ Most inventory items occupy *inventory slots (IS)*, which is a representation of
 
 #### Weapons
 
-There are two types of weapons: *light (L)*, *heavy (H)* and *martial (M)*. A light weapon inflicts 1 WP, a heavy weapon inflicts 2 WP, and a martial weapon inflicts 3 WP. Martial weapons can only be used by those who have a profession that relates to the military or other similar experience, like a bounty hunter. 
+There are two types of weapons: *light (L)*, *heavy (H)* and *martial (M)*. A light weapon inflicts 1 WP, a heavy weapon inflicts 2 WP, and a martial weapon inflicts 3 WP. Martial weapons can only be used by those who have a profession that relates to the military or other similar experience, like a bounty hunter.
 
-| Weapon               | Type | IS |
-|----------------------|------|----|
-| Dagger               | L    | 1  |
-| Hand axe             | L    | 1  |
-| Short sword          | L    | 1  |
-| Hammer               | L    | 1  |
-| Sling                | L    | 0  |
-| Long sword           | H    | 2  |
-| Battle axe           | H    | 2  |
-| Warhammer            | H    | 2  |
-| Mace                 | H    | 2  |
-| Bow                  | H    | 1  |
-| Two-handed sword     | M    | 3  |
-| Great axe            | M    | 3  |
-| Crossbow             | M    | 2  |
+Weapons have another characteristic: *range*. This indicates the farthest reach for that weapon, and this normally applies to missile or thrown weapons. Range is measured in *zones*, with 1 zone being equal to 25 ft / 8 m. A zone of 0 indicates melee range.
+
+| Weapon               | Type | Range | IS |
+|----------------------|------|-------|----|
+| Dagger               | L    | 1     | 1  |
+| Hand axe             | L    | 1     | 1  |
+| Short sword          | L    | 0     | 1  |
+| Hammer               | L    | 1     | 1  |
+| Sling                | L    | 4     | 0  |
+| Long sword           | H    | 0     | 2  |
+| Battle axe           | H    | 0     | 2  |
+| Warhammer            | H    | 0     | 2  |
+| Mace                 | H    | 0     | 2  |
+| Bow                  | H    | 10    | 1  |
+| Two-handed sword     | M    | 0     | 3  |
+| Great axe            | M    | 0     | 3  |
+| Crossbow             | M    | 8     | 2  |
 
 #### Armor
 
@@ -102,15 +100,17 @@ Similar to weapons, armor has light, heavy, and martial types, and just like wit
 | Light (padded, leather)       | -1                | 2  |
 | Heavy (chainmail, scale mail) | -2                | 4  |
 | Martial (plate mail)          | -3                | 8  |
-| Shield (any size)             | -1                | 3  |
+| Shield (any size)             | -1                | 2  |
 
 #### Gear
 
-In addition to weapons, your adventurer needs some gear that will keep them safe in their travels, as well as keeping them fed and hydrated. What follows is some basic inventory items that every adventurer can use.
+In addition to weapons, your adventurer needs some gear that will keep them safe in their travels, as well as keeping them fed and hydrated. This includes items like rations, a waterskin, torches, a lamp, rope, and other items that can help on an adventure. The IS value of these items is dependent on their size and/or function, as follows:
 
-| Item                          | IS |
-|-------------------------------|----|
-| Light (padded, leather)       | 2  |
+- Containers suchs as bags, backpacks, and sacks have an IS of 0.
+- Items up to the size of a regular shield (about 4 sq ft/ 0.4 sq m) have an IS of 1.
+- Items larger than a shield will have an IS of 2.
+- Exceptions to the size ruling for IS need to be taken on a case per case basis. For example, something like an anvil will not be too large, but will definitely have around 6 IS!
+- Coins will have an IS of 0 for up to 200 coins, and +1 IS for every other 200 coins.
 
 ## Actions
 
@@ -134,34 +134,54 @@ Actual combat consists of multiple actions taking place simultaneously. However,
 
 At the start of combat, all players and the coordinator will roll a die as specified in the following table:
 
-| Factor                              | Initiative Die |
-|-------------------------------------|----------------|
-| Unarmored                           | d6             |
-| Light armor (padded, leather)       | d8             |
-| Heavy armor (chainmail and heavier) | d10            |
-| Wounded                             | d12            |
+| Inventory slots percentage | IS 12 | IS 16 | IS 20 | IS 24 | Initiative Die |
+|------------------------------------|-------|-------|-------|----------------|
+| Up to 25%                  | 3     | 4     | 5     | 6     | d6             |
+| Up to 50%                  | 6     | 8     | 10    | 12    | d8             |
+| Up to 75%                  | 9     | 12    | 15    | 18    | d10            |
+| Up to 100%                 | 12    | 16    | 20    | 24    | d12            |
 
 The coordinator will ideally roll for each monster group, although they can choose to roll initiative for each opponent if they wish to.
 
-The action order will then be established by the roll results in ascending order. In the case of a tie, the players can choose who goes first. If the tie is between a player and any of the coordinator's group of enemies, the player has the advantage. The coordinator must take care to annotate the initiative order for reference.
+The action order will then be established by the roll results in ascending order. In the case of a tie, the players can choose who goes first. If the tie is between a player and any of the coordinator's group of enemies, the player has the advantage. The coordinator must annotate the initiative order for reference.
 
 ### Rounds and turns
 
 Once the initiative is set, combat begins! This is the start of the round, which encompasses all the plays by all participants. Each player participates in their turn, as set by the initiative order.
 
-### Attacks
+### Move
+ 
+If able to do so, combat participants can move before *or* after their attack, and as an action in their *riposte* (explained below). They can also choose to not move at all. Movement, like weapon range, is defined in zones. Your adventurer can move a maximum of 1 zone per  
+
+### Attack
 
 To perform an attack, you use the *adventurer* die roll. The difficulty level of the attack is set by the target's *defense* stat, which goes from 2 to 5. This defense stat is modified by things such as armor, shields, and any other modifiers that might apply, as explained in the *Defense* segment below. Regardless of the target's defense, a roll of 1 will always hit a target under regular circumstances. 
 
-The target of an attack, if still conscious and capable, can immediately strike back in return even if it is not their turn in terms of initiative. This makes combat more dynamic, dangerous, and unpredictable. Even after responding to an attack, they will still get to play their turn as determined by initiative, and in the same manner, their target will be able to respond back to the attack.
-
-### Defense
+#### Defense
 
 As specified above, the defense stat establishes how difficult it is for your adventurer to hit a target in combat, as well as how difficult it is for your adventurer to be hit. The base value for this stat is 5, which in human terms is someone with no armor or any other type of protection, and this number is reduced by the following cummulative factors:
 
-- Armor: As specified in the Equipment -> Armor section above, each armor type reduces the defense by a specified amount.
+- Armor: As specified in the Equipment -> Armor section above, each armor type reduces the defense by a specified amount. Some creatures might have natural armor, too.
 - Cover: Someone behind 50% or more cover will reduce their defense by -2 in addition to any other benefits such as armor.
-- There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristics.
+- There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristic.
+
+### Riposte
+
+The target of an attack, if still conscious and capable, can immediately strike back in return even if it is not their turn in terms of initiative. This is called a riposte, and it makes combat more dynamic, dangerous, and unpredictable. The target of a riposte cannot riposte in return.
+
+Even after playing their riposte, they will still get to play their turn as determined by initiative, and in the same manner their target will be able to respond back to the attack with their own riposte, if possible.
+
+### Damage
+
+The wellbeing die is used to manage damage received in combat or other dangerous situations. There are two tracking scores related to wellbeing, *hit points (HP)* and *wound points (WP)*. Every time a combatant is the target of a successful attack (or anything else that causes bodily or mental harm), add 1 HP. For example, the first time they receive damage, they will have 1 HP, second time, 2 HP, and so on.
+
+After jotting this down, the player rolls their wellbeing die. If the wellbeing roll is higher than the combatant's current HP, they avoid being wounded. If the roll is equal or lower than their HP, the player has to add the attack damage points to their current WP score, based on the attack's damage rating.
+
+If the combatant reaches a WP score higher than their wellbeing die (for example, reching 9 or more wound points when their wellbeing die is a d8), they will automatically be *unconscious* and out of commission.
 
 #### Death
+
+If the combatant receives more than one and a half times their wellbeing die in WP, they will die. For example, an adventurer with a wellbeing of d6 will die if they receive more than 9 WP.
+
+
 
