@@ -135,7 +135,7 @@ Actual combat consists of multiple actions taking place simultaneously. However,
 At the start of combat, all players and the coordinator will roll a die as specified in the following table:
 
 | Inventory slots percentage | IS 12 | IS 16 | IS 20 | IS 24 | Initiative Die |
-|------------------------------------|-------|-------|-------|----------------|
+|----------------------------|-------|-------|-------|-------|----------------|
 | Up to 25%                  | 3     | 4     | 5     | 6     | d6             |
 | Up to 50%                  | 6     | 8     | 10    | 12    | d8             |
 | Up to 75%                  | 9     | 12    | 15    | 18    | d10            |
