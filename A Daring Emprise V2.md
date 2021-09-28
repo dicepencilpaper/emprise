@@ -188,3 +188,19 @@ If the combatant receives more than one and a half times their wellbeing die in 
 | d20 | 30 IN    |
 
 Note that there are WB values higher and lower than what is usually expected from adventurers. This takes into account certain creatures that might have such extremely scores.
+
+## Monsters and creatures
+
+In this fantasy world, strange creatures and monsters can be found lurking anywhere... Yes, even in the basement of the inn you are staying at! Some creatures are friendly, many are neutral, and others are vicious and evil.
+
+Creatures work quite similarly to adventurers in terms of game mechanics.
+
+- Wellbeing: A creature can have a wellbeing die from d4 (a really small creature) to d20 (a large, powerful beast).
+- Attack: Instead of having an *adventurer* profession to determine their combat prowess, a monster has an *attack (A)* die. This die can range from d4 (for a truly powerful creature) to d20.
+- Defense: Monsters will have a set *defense (D)* score from 2 to 5. For humanoid creatures, this will be determined by armor type, or any natural armor they could have.
+- Powers and abilities: Any power and abilities will have an assigned die. Unlike adventurers, however, dice assignments do not have to be unique, providing more flexibility in monster design. Note that humanoid monsters can have professions just like adventurers.
+
+Here are some examples:
+
+- Goblin - WBd4, Ad10, D5/Armor.
+- Owlbear - WBd10, Ad8, D3. 
