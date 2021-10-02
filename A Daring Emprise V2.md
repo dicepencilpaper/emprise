@@ -67,7 +67,7 @@ Your adventurer needs to be equipped for the dangers they will face exploring th
 
 #### Weapons
 
-There are three types of weapons: *light (L)*, *heavy (H)* and *martial (M)*. Each type of weapon inflicts different amounts of damage as detailed in the *Combat* section. Martial weapons can only be used by those who have a profession that relates to the military or other similar experience.
+There are three types of weapons: *light (L)*, *heavy (H)* and *martial (M)*. Depending on the type, some weapons provide a bonus that increases the chances of a successful attack against an opponent, as detailed in the *Combat* section. Martial weapons can only be used by those who have a profession that relates to the military or other similar experience.
 
 Some weapons have another characteristic: *range*. This indicates the farthest reach for that weapon when it is fired or thrown. Range is measured in *zones*, with 1 zone being equal to 25 ft / 8 m. A zone of 0 indicates melee range.
 
@@ -159,6 +159,16 @@ To perform an attack, roll the *adventurer* profession die, or d20 if it is an e
 - There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristic.
 
 Regardless of the target's defense, a roll of 1 will always hit a target under regular circumstances.
+
+#### Weapon bonuses
+
+Some weapons have an attack modifier based on their type. This modifier is added to the attack roll, improving the chances of a successful hit.
+
+| Weapon Type  | Modifier |
+|--------------|----------|
+| Light        | None     |
+| Heavy        | -1       |
+| Martial      | -2       |
 
 ### Riposte
 
