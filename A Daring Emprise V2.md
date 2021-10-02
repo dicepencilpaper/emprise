@@ -168,26 +168,13 @@ Even after playing their riposte, they will still get to play their turn as orig
 
 ### Damage
 
-The wellbeing die is used to manage damage received in combat or other dangerous situations. There are two tracking scores related to wellbeing, *hit points (HP)* and *injury points (IN)*. Every time a combatant is the target of a successful attack (or anything else that causes bodily or mental harm), add 1 HP. For example, on the first successful attack they will have 1 HP, second time, 2 HP, and so on.
+Every time a combatant is the target of a successful attack, their player keeps track of this via *hit points (HP)*, adding 1 for every attack. After adding up their hit, the player rolls their wellbeing die. If they roll higher than their current HP *or* the maximum value of their wellbeing die, they avoid being injured, otherwise, they will be out of commission and unconscious.
 
-After jotting this down, the player rolls their wellbeing die. If the roll is higher than the combatant's current HP, they avoid being injured. If the roll is equal or lower than their HP, the player has to add the damage points to their current IN score based on the attack's damage value.
-
-If the combatant reaches an IN score higher than their wellbeing die (for example, reaching 9 or more IN when their wellbeing die is a d8), they will automatically be *unconscious* and out of commission.
+After this, any attacks received are automatically successful.
 
 #### Death
 
-If the combatant receives more than one and a half times their wellbeing die in injury points, they will die. For example, an adventurer with a wellbeing of d6 will die if they receive more than 9 IN.
-
-| WB  | Death at |
-|-----|----------|
-| d4  | 6 IN     |
-| d6  | 9 IN     |
-| d8  | 12 IN    |
-| d10 | 15 IN    |
-| d12 | 18 IN    |
-| d20 | 30 IN    |
-
-Note that there are WB values higher and lower than what is usually expected from adventurers. This takes into account certain creatures that might have such extremely scores.
+If the combatant receives more than half times their wellbeing die in injuries, they will die. For example, an adventurer with a wellbeing of d6 will die if they receive more than 3 injuries.
 
 ## Monsters and creatures
 
