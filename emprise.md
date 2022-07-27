@@ -181,24 +181,23 @@ When your adventurer is trying to perform an action for which they have no knowl
 
 In real life, combat consists of multiple actions taking place almost simultaneously. However, this is extremely difficult (if not impossible) to achieve in a tabletop game. Therefore, we will slice time and movement using a system composed of _rounds_ and _turns_, with the order of events set through _initiative_.
 
-[Back to Contents](#contents)
-
 ### Initiative
 
 At the start of combat, all players and the Coordinator will roll a die as specified in the following table:
 
-| Factor               | Die |
-|----------------------|-----|
-| No armor             | d6  |
-| Leather/padded armor | d8  |
-| Mail armor           | d10 |
-| Plate armor          | d12 |
+| Factor               | Die   |
+|----------------------|-------|
+| No armor             | d6    |
+| Leather/padded armor | d8    |
+| Mail armor           | d10   |
+| Plate armor          | d12   |
+| Heavily encumbered   | DS +1 |
 
 If a participant is carrying a lot of weight or a bulky item, they will bump up their die to the next higher value. For example, the player of a fighter wearing leather armor that is carrying a backpack fully stuffed to the top with coins will roll a d10 for their initiative instead of a d8. The Coordinator must be reasonable and fair when determining this.
 
 #### Enemies and monsters
 
-The Coordinator will roll initiative for each monster _group_, although they can choose to roll initiative for each opponent if they wish to. For humanoid opponents, use the same table as for adventurers to determine the initiative die. Monsters and beasts will have their own die as determined in their description.
+The Coordinator will roll initiative for each monster _group_, although they can choose to roll initiative for each opponent if they wish to (usually if there are only no more than eight monsters overall). For humanoid opponents, use the same table as for adventurers to determine the initiative die. Monsters and beasts will have their own die as determined in their description.
 
 #### Acting order
 
@@ -208,78 +207,54 @@ The acting order for all battle participants is established by the roll results 
 
 ### Rounds & turns
 
-Once the initiative is set, combat begins! This is the start of the round, which encompasses all the plays by all participants. Each player participates in their turn, as set by the initiative order.
+Once the initiative is set, combat begins! This is the start of the round, which encompasses all the plays by all participants. Each player will perform actions in their turn, as set by the initiative order.
 
 [Back to Contents](#contents)
 
 ### Moving
 
-If able to do so, combat participants can move before _or_ after their attack, and as an action in their _riposte_ (explained below). They can also choose to not move at all. Movement, like weapon range, is defined in zones. Your adventurer can move a maximum of 1 zone per turn.
+If able to do so, combat participants can move before _or_ after their attack, and as an action in their _riposte_ (explained below). They can also choose to not move at all. Normally, an adventurer will move within Close range and no more than that unless there is some sort of enhancement (magical, for example). Monsters and creatures will have their own maximum movement range as determined in their description.
 
 [Back to Contents](#contents)
 
 ### Attacking
 
-To perform an attack, roll the _adventurer_ profession die, or d20 if it is an entity with no fighting abilities. The AT for an attack is equal to the target's defense score. This can be further modified by the following:
-
-* Being behind 50% or more cover will reduce their defense by -2 in addition to any other benefits such as armor.
-* There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristic.
-
-Regardless of the target's defense, a roll of 1 will always hit a target under regular circumstances.
-
-#### Weapon bonuses
-
-Some weapons have an attack modifier based on their type. This modifier is added to the attack roll, improving the chances of a successful hit.
-
-Weapon Type
-
-Modifier
-
-Light
-
-None
-
-Heavy
-
-\-1
-
-Heavy
-
-\-2
+To perform an attack, roll the _adventuring_ die, or d20 if it is an entity with no fighting abilities. Attacks will be dice shifted by the target's armor (whether worn or natural). Other variables such as partial cover, environmental obstacles like fog, and other elements like magical protection will add up +1 DS.
 
 [Back to Contents](#contents)
 
 ### Riposte
 
-The target of an attack, if still conscious and capable, can immediately strike back in return even if it is not their turn in terms of initiative. This is called a riposte, and it makes combat more dynamic, dangerous, and unpredictable. The target of a riposte cannot riposte in return.
+The target of an attack, if still conscious and capable, can immediately strike back in return even if it is not their turn in terms of initiative. This is called a riposte, and it makes combat more dynamic, dangerous, and unpredictable. The target of a riposte cannot perform a riposte in return.
 
 Even after playing their riposte, they will still get to play their turn as originally set by initiative, and in the same manner their target will be able to respond back to the attack with their own riposte, if possible.
 
 [Back to Contents](#contents)
 
-### Damage
+### Combat effects
 
-Every time a combatant is the target of a successful attack, their player keeps track of this via _hit points (HP)_, adding 1 for every attack. After adding up their hit, the player rolls their wellbeing die. If they roll higher than their current HP _or_ the maximum value of their wellbeing die, they avoid being injured, otherwise, they will be out of commission and unconscious.
+Based on the final result of a successful attack roll, certain combat effects will be applied to the target.
 
-After this, any attacks received are automatically successful.
+| Roll | Blunt | Edged | Grappling | Grab  | Escape  | Charge |
+|------|-------|-------|-----------|-------|---------|--------|
+| 1    | Stun  | Kill  | Hold      | Break | Reverse | Stun   | 
+| 2    | Slam  | Stun  | Partial   | Grab  | Escape  | Slam   |
+| 3    | Hit   | Hit   | Miss      | Take  | Miss    | Hit    |
+| 4+   | Miss  | Miss  | Miss      | Miss  | Miss    | Miss   |
 
-#### Death
-
-If the combatant receives more than half times their wellbeing die in injuries, they will die. For example, an adventurer with a wellbeing of d6 will die if they receive more than 3 injuries.
+Every time a combatant is hit by a successful attack, they will add DS +1 to all their actions, up to a maximum dice shift to d20. The player controlling the attacker has the option to choose a less harmful effect to be applied to their target. For example, they might have rolled a 1 with a edged weapon, but might instead choose to stun their opponent.
 
 [Back to Contents](#contents)
 
-Monsters & creatures
---------------------
+## Monsters & creatures
 
 In this fantasy world, strange creatures and monsters can be found lurking anywhere... Yes, even in the basement of the inn you are staying at! Some creatures are friendly, many are neutral, and others are vicious and evil.
 
 Creatures work quite similarly to adventurers in terms of game mechanics.
 
-*   **Wellbeing:** A creature can have a wellbeing die from d4 (a really small creature) to d20 (a large, powerful beast).
-*   **Attack:** Instead of having an _adventurer_ profession to determine their combat prowess, a monster has an _attack (A)_ die. This die can range from d4 (for a truly powerful creature) to d20.
-*   **Defense:** Monsters will have a set _defense (D)_ score from 2 to 5. For humanoid creatures, this will be determined by armor type, or any natural armor they could have.
-*   **Powers and abilities:** Any power and abilities will have an assigned die. Unlike adventurers, however, dice assignments do not have to be unique, providing more flexibility in monster design. Note that humanoid monsters can have professions just like adventurers.
+* **Attack:** Instead of having an _adventurer_ profession to determine their combat prowess, a monster has an _attack (A)_ die. This die can range from d4 (for a truly powerful creature) to d20.
+* **Defense:** Monsters will have a set _defense (D)_ score determined by a certain DS bonus. For humanoid creatures, this will be determined by armor type, or any natural armor they could have.
+* **Powers and abilities:** Any power and abilities will have an assigned die. Unlike adventurers, however, dice assignments do not have to be unique, providing more flexibility in monster design. Note that humanoid monsters can have professions just like adventurers.
 
 Here are some examples:
 
