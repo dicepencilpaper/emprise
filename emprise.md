@@ -1,7 +1,5 @@
-    body { font-family:'Source Serif Pro', sans-serif; background:seashell; color: black; text-align: justify; } h1 { font-family: 'Oldenburg'; color:darkgoldenrod; } h2 { font-family: 'Oldenburg'; color:darkgoldenrod; } h3 { font-family: 'Oldenburg'; color:darkgoldenrod; } th { background-color: goldenrod; color: white; text-align: center; padding: 4px; } table { border: 1px solid goldenrod; border-collapse: collapse; } tr { background-color:floralwhite; padding: 8px; } tr:nth-child(even) { background-color:wheat; } td { padding: 4px; text-align: center; } .small { font-size: small; } .center { display: block; margin-left: auto; margin-right: auto; width: 50%; } ![](https://dicepencilpaper.com/wp-content/uploads/2021/11/ADE_logo.png)
-
+![](https://dicepencilpaper.com/wp-content/uploads/2022/07/emprise_logo.png)
 _Medieval fantasy role-playing game by Dice Pencil & Paper._  
-  
 ![](https://dicepencilpaper.com/wp-content/uploads/2019/09/dpp_logo_40.jpg)
 
 # Emprise
@@ -9,17 +7,11 @@ _Medieval fantasy role-playing game by Dice Pencil & Paper._
 ## Contents
 
 *   [The adventurer](#the-adventurer)
+*   [Adventuring skills](#adventuring-skills)
 *   [Professions](#professions)
-*   [Wellbeing](#wellbeing)
-*   [Weapons, armor & equipment](#weapons-armor-equipment)
+*   [Weapons, armor & equipment](#weapons-armor--equipment)
 *   [Actions](#actions)
 *   [Combat](#combat)
-*   [Initiative](#initiative)
-*   [Rounds & turns](#rounds-and-turns)
-*   [Moving](#moving)
-*   [Attacking](#attacking)
-*   [Riposte](#riposte)
-*   [Damage](#damage)
 *   [Monsters & creatures](#monsters-and-creatures)
 
 ## Welcome to Emprise!
