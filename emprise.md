@@ -10,38 +10,62 @@ Emprise
 ## Contents
 
 *   [The adventurer](#the-adventurer)
-
 *   [Professions](#professions)
 *   [Wellbeing](#wellbeing)
 *   [Weapons, armor & equipment](#weapons-armor-equipment)
-
 *   [Actions](#actions)
 *   [Combat](#combat)
-
 *   [Initiative](#initiative)
 *   [Rounds & turns](#rounds-and-turns)
 *   [Moving](#moving)
 *   [Attacking](#attacking)
 *   [Riposte](#riposte)
 *   [Damage](#damage)
-
 *   [Monsters & creatures](#monsters-and-creatures)
 
 ## Welcome!
 
-This is a world of low fantasy and high stakes! Take your adventurer to dangerous quests into dark caves, mysterious dungeons, mystical towers, and more. It is a world of low technology, warring kingdoms, and dangerous monsters lurking everywhere. Be courageous, be brave, don your armor, and create stories that will be retold for ages!
+This is a world of fantasy and high stakes! Take your adventurer to dangerous quests into dark caves, mysterious dungeons, mystical towers, and more. It is a world of low technology, warring kingdoms, and dangerous monsters lurking everywhere. Be courageous, be brave, don your armor, and create stories that will be retold for ages!
+
+This system is designed so that most adventure settings can be adapted to it. Similarly, you can create your own world and lore, and the Emprise system should be able to work quite well with it.
 
 ### Participants
 
-A session of A Daring Emprise is composed of one to four people that will be playing with their _adventurers_, and one player who is in charge of presenting the situations, scenes, and controlling the rest of the universe's entities. This player is known as the _coordinator_, as they take care of running the game in an orderly fashion and making sure things are fair for everyone.
+A session of Emprise is composed of one to four people that will be playing with their _adventurers_, and one player who is in charge of presenting the situations, scenes, and controlling the rest of the universe's entities. This player is known as the _Coordinator_, as they take care of running the game in an orderly fashion and making sure things are fair for everyone.
+
+### Components needed
+
+To set up and play a game of Emprise, you will need the following:
+
+* Paper for noting the adventurer's stats and description, and for the Coordinator to take notes. Any type of paper works.
+* Pencils or pens for writing.
+* At least one full set of polyhedral dice: d4, d6, d8, d10, d12, and d20. However, it is ideal if every participant has their own set of dice.
 
 ## The adventurer
 
 Your adventurer is a daring, courageous individual that is ready to face whatever fate throws at them! An adventurer has one to four _professions_ that define their skills and capabilities. Each one of these abilities gets a dice assigned to it. The lower the die, the better they are at that profession. These determine the adventurer's skills and capabilities. The lower the die, the better it is.
 
-### Professions
+### Creating an adventurer
 
-A profession encompasses a relatively wide skill set. Here are a few examples of some possible professions:
+There are four dice available for each adventurer. These dice are: d6, d8, d10, and d12. The lower a die, the better it is. These are assigned as follows to your adventurer's character elements:
+
+* One die for _[adventuring skills](#adventuring-skills)_.
+* One to three dice for _[professions](#professions)_, or
+* One to two dice for professions, and one die for _[magic](#magic)_. 
+
+You can assign these dice as you wish, however, dice assignments cannot be repeated; for example, you cannot assign a d6 to two different character elements. Each die must be unique to each element.
+
+## Adventuring skills
+
+Every adventurer has, of course, adventuring skills! This covers a practical knowledge set comprised of the following elements:
+
+* **Fighting:** The adventurer knows how to fight with or without weapons, use armor, and shields. They can also perform maneuvers during combat.
+* **Traveling:** They will have a decent sense of direction, and know how to travel in different types of terrain. They will also possess basic knowledge of the dangers in each.
+* **Camping:*** The adventurer knows the basics of setting up camp: shelter, fire, and related things.
+
+## Professions
+
+A profession encompasses a relatively wide skill and knowledge set. Here are a few examples of possible professions:
 
 *   Metalsmith
 *   Merchant
@@ -52,219 +76,108 @@ A profession encompasses a relatively wide skill set. Here are a few examples of
 *   Soldier
 *   Musician
 
-Note that professions do not have detailed skills and abilities; rather, it is expected that everyone uses common sense and creativity when using professions. Does an action performed under a certain profession makes sense to everyone? Then it is valid!
+Note that professions do not have detailed, granular skills and abilities; rather, it is expected that everyone uses common sense and creativity when using professions. Does an action performed under a certain profession makes sense to everyone? Then it is valid!
 
 For example, it is expected that someone with the profession of _musician_ is good at understanding musical instruments, composition, and knowledgeable of music history. But a creative use of this profession could enable them to be really good at persuading people, simply based on their experience as public performers. Be flexible and creative.
 
-All adventurers have one basic profession, _adventurer_, which determines their proficiency in the following areas:
-
-*   Combat prowess and skill with basic weapons. This does not include martial weapons, as clarified in the _Combat_ section.
-*   Travel skills such as basic map reading, and a good sense of direction.
-*   Basic survival techniques like setting camp, building fires, cooking, fishing, small-prey hunting, and foraging.
-
-To determine how proficient the adventurer is at each on of their professions, they will had a single die assigned to each profession. The dice available are d6, d8, d10, and d12. Assign a die to each one based on your personal preference, with **d6** being way above average, all the way down to below average at **d12**. Each die assignment must be unique.
-
-As an example, Runah the Wanderer has the following professions:
-
-*   Hunter (d6)
-*   Adventurer (d8)
-*   Sailor (d10)
-
-When your adventurer is trying to perform a task for which they have no knowledge, you will have to roll for success using the **d20** die. These dice are used to determine the success or failure of special actions that require skill. The _Actions_ section explains how this works.
+Professions are utilized via _[actions](#actions)_, explained later in these rules.
 
 [Back to Contents](#contents)
 
-### Wellbeing
-
-The _wellbeing die (WB)_ determines your adventurer's physical and mental resistance. Usually, your adventurer starts with **d8** as their wellbeing die. A higher wellbeing die indicates a more robust adventurer.
-
-#### Assigning your adventurer's wellbeing die
-
-There are two methods for this. The first one is to roll 1d10 and consulting the table below:
-
-Roll 1d10
-
-Wellbeing Die
-
-1-3
-
-d6
-
-4-7
-
-d8
-
-8-9
-
-d10
-
-10
-
-d12
-
-The second alternative is to have the coordinator assign a die value based on your adventurer's professions. As an example, an adventurer with a profession that focuses on highly physical activities such as a soldier could have a high wellbeing die, while someone that comes from a very sedentary lifestyle like a scholar would have a lower die.
-
-[Back to Contents](#contents)
-
-### Weapons, armor, & equipment
+## Weapons, armor, & equipment
 
 Your adventurer needs to be equipped for the dangers they will face exploring the unknown! Make sure to give your character gear that matches their professions and style.
 
-#### Weapons
+### Weapons
 
-There are three types of weapons: _light (L)_, _heavy (H)_ and _martial (M)_. Depending on the type, some weapons provide a bonus that increases the chances of a successful attack against an opponent, as detailed in the _Combat_ section. Martial weapons can only be used by those who have a profession that relates to the military or other similar experience.
+There are three types of weapons: _light (L)_, _medium (M)_, and _heavy (H)_. Medium and heavy weapons provide a negative dice shift that increases the chances of a successful attack against an opponent. Heavy weapons can only be used by those who have a profession that relates to the military or other similar experience, like being a soldier or a knight.
 
-Some weapons have another characteristic: _range_. This indicates the farthest reach for that weapon when it is fired or thrown. Range is measured in _zones_, with 1 zone being equal to 25 ft / 8 m. A zone of 0 indicates melee range.
+| Weapon type | Dice Shift |
+|-------------|------------|
+| Light       | 0          |
+| Medium      | -1         |
+| Heavy       | -2         |
 
-Weapon
+Missile and thrown weapons have another characteristic: _range_. This indicates the farthest reach for that weapon when it is used. There are five ranges.
 
-Type
+| Range         | Distance    |
+|---------------|-------------|
+| Immediate (I) | 5 ft/2 m    |
+| Close (C)     | 25 ft/8 m   |
+| Nearby (N)    | 50 ft/15 m  |
+| Far (F)       | 100 ft/30 m |
+| Distant (D)   | 200 ft/60 m |
 
-Range
+#### Weapon list
 
-Dagger
+| Weapon             | Type | Range | 2H |
+|--------------------|------|-------|----|
+| Battle axe         | M    |       |    |
+| Bow                | M    | D     | X  |
+| Crossbow           | H    | F     | X  |
+| Dagger             | L    | C     |    |
+| Great axe          | H    |       | X  |
+| Hammer             | L    | I     |    |
+| Hand axe           | L    | C     |    |
+| Long sword         | M    |       |    |
+| Mace               | M    |       |    |
+| Sling              | L    | F     |    |
+| Short sword        | L    |       |    |
+| Two-handed sword   | H    |       | X  |
+| Warhammer          | M    |       |    |
 
-L
-
-1
-
-Hand axe
-
-L
-
-1
-
-Short sword
-
-L
-
-\-
-
-Hammer
-
-L
-
-1
-
-Sling
-
-L
-
-4
-
-Long sword
-
-H
-
-\-
-
-Battle axe
-
-H
-
-\-
-
-Warhammer
-
-H
-
-\-
-
-Mace
-
-H
-
-\-
-
-Bow
-
-H
-
-10
-
-Two-handed sword
-
-M
-
-\-
-
-Great axe
-
-M
-
-\-
-
-Crossbow
-
-M
-
-8
+Note that weapons marked as two-handed (2H) cannot be used simultaneously with a shield.
 
 #### Armor
 
-Your adventurer can wear armor to protect them from physical damage. Similar to weapons, armor has light, heavy, and martial types, and only adventurers with a profession that provides extensive combat training can wear martial type armor.
+Your adventurer can wear armor to protect them from physical damage. Similar to weapons, armor is available in light, medium, and heavy types, and only adventurers with a profession that provides extensive combat training can wear heavy armor. Armor protects by applying a positive dice shift to the attacker's roll.
 
-Your adventurer has a base _Defense_ score of 5, which can be reduced by the _defense reduction_ value shown in the table below. The lower the score, the better protected your adventurer is.
-
-Armor
-
-Defense Reduction
-
-Light (padded, leather)
-
-\-1
-
-Heavy (chainmail, scale mail)
-
-\-2
-
-Martial (plate mail)
-
-\-3
-
-Shield (any size)
-
-Additional -1
+| Armor                          | Dice Shift | 
+|--------------------------------|------------|
+| Light (padded, leather)        | +1         |
+| Medium (chainmail, scale mail) | +2         |
+| Heavy (plate mail)             | +3         |
+| Shield (any size)              | Add +1     |
 
 #### Gear
 
-In addition to weapons, your adventurer needs some gear that will keep them safe in their travels, as well as keeping them fed and hydrated. This includes items like rations, a waterskin, torches, a lamp, rope, and other items that can help on an adventure. Not having a required item for an action can result in an increased difficulty for the action target!
+In addition to weapons, your adventurer needs some gear that will keep them safe in their travels, as well as keeping them fed and hydrated. This includes items like rations, a waterskin, torches, a lamp, rope, and other items that can help on an adventure. Not having a required item for an action can prevent an adventurer in performing a certain action. Also, in some cases (as judged by the Coordinator), having the correct gear for an action will provide DS -1 to the roll.
 
-Actions
--------
+## Actions
 
-Any activity or task that requires knowledge and skill is called an _action_. This includes using your adventurer's profession skills, and also combat actions such as attacking a target. Every action has a difficulty range as shown below:
+Any activity or task that requires knowledge and skill is called an _action_. This includes using your adventurer's profession skills, and combat actions such as attacking a target. To perform an action related to a profession or adventuring skills, roll the appropriate die and consult the following table:
 
-Difficulty
+| Value rolled | Result           |
+|--------------|------------------|
+| 1            | Critical success |
+| 2            | Success          |
+| 3            | Near failure     |
+| 4+           | Failure          |
 
-Action Target
+* **Critical success:** The adventurer's action excels; not only do they succeed, they can optionally ask for an additional related effect from their action (to be discussed with the Coordinator as not to imbalance things).
+* **Success:** The action succeeded as intended by the player.
+* **Near failure:** The action succeeded, but barely. A negative side effect of the action can happen at the discretion of the Coordinator. As with a critical success, this effect has to be measured and not imbalance events unnecessarily.
 
-Average
+_Coordinator's Note: It is recommended that you exercise balance regarding when to roll. Excessive rolls bog down the game; only roll for things that you consider will require a special application of the adventurer's profession. Be fair, and keep the game flowing. However, tasks that would normally succeed automatically could require a roll if the is trying to perform under stressful or difficult circumstances._
 
-5
+### Difficulty modifiers
 
-Complicated
+Not all actions are equal, and some will be harder to perform than others. In those cases, a _dice shift (DS)_ will be set by the Coordinator for the action. Dice shifts can be positive (rolling a higher-numbered die) or negative (rolling a lower-numbered die).
 
-4
+| Difficulty   | Dice shift |
+|--------------|------------|
+| Average      | 0          |
+| Difficult    | +1         |
+| Brutal       | +2         |
+| Unattainable | +3         |
 
-Difficult
+For example, an adventurer with Adventuring d8 wants to shoot an arrow into a small hall in a wall that is quite a distance away. The Coordinator evaluates the situation and determines it's a Brutal difficulty (DS +2). Therefore, the player now must roll a d12 to determine if they're successful in their action.
 
-3
+### Performing actions without a profession
 
-Brutal
+When your adventurer is trying to perform an action for which they have no knowledge, you will have to roll for success using the d20 die, and consult the table above.
 
-2
-
-Unattainable
-
-1
-
-The _action target (AT)_ column for each difficulty level determines the highest value that needs to be rolled to succeed.
-
-For example, for an _average_ action (which has an AT of 5), you would succeed on a roll of 1-5, while for an _unattainable_ action (AT 1), only a 1 would succeed. It is expected that tasks that could be considered easier than average will succeed automatically, unless your adventurer is trying to perform under stressful or difficult circumstances. At that point, the coordinator will determine an appropriate difficulty level for the action.
-
-Combat
-------
+## Combat
 
 In real life, combat consists of multiple actions taking place almost simultaneously. However, this is extremely difficult (if not impossible) to achieve in a tabletop game. Therefore, we will slice time and movement using a system composed of _rounds_ and _turns_, with the order of events set through _initiative_.
 
@@ -272,35 +185,24 @@ In real life, combat consists of multiple actions taking place almost simultaneo
 
 ### Initiative
 
-At the start of combat, all players and the coordinator will roll a die as specified in the following table:
+At the start of combat, all players and the Coordinator will roll a die as specified in the following table:
 
-Factor
+| Factor               | Die |
+|----------------------|-----|
+| No armor             | d6  |
+| Leather/padded armor | d8  |
+| Mail armor           | d10 |
+| Plate armor          | d12 |
 
-Die
-
-No armor
-
-d6
-
-Leather/padded armor
-
-d8
-
-Mail armor
-
-d10
-
-Plate armor
-
-d12
-
-If a participant is carrying a lot of weight or a bulky item, they will bump up their die to the next higher value. For example, the player of a fighter wearing leather armor that is carrying a backpack fully stuffed to the top with coins will roll a d10 for their initiative instead of a d8. The coordinator must be reasonable and fair when determining this.
+If a participant is carrying a lot of weight or a bulky item, they will bump up their die to the next higher value. For example, the player of a fighter wearing leather armor that is carrying a backpack fully stuffed to the top with coins will roll a d10 for their initiative instead of a d8. The Coordinator must be reasonable and fair when determining this.
 
 #### Enemies and monsters
 
-The coordinator will roll for each monster _group_, although they can choose to roll initiative for each opponent if they wish to. For humanoid opponents, use the same table as for adventurers to determine the initiative die. Monsters and beasts will have their own die as determined in their description.
+The Coordinator will roll initiative for each monster _group_, although they can choose to roll initiative for each opponent if they wish to. For humanoid opponents, use the same table as for adventurers to determine the initiative die. Monsters and beasts will have their own die as determined in their description.
 
-The action order will then be established by the roll results in _ascending_ order. In the case of a tie between adventurers, the players choose who goes first. If the tie is between a player and any of the coordinator's group of enemies, the player will go first. The coordinator must annotate the initiative order for reference.
+#### Acting order
+
+The acting order for all battle participants is established by the roll results in _ascending_ order. In the case of a tie between adventurers, the players choose who goes first. If the tie is between a player and any of the Coordinator's group of enemies, the player will go first. The Coordinator must annotate the initiative order for reference.
 
 [Back to Contents](#contents)
 
@@ -320,8 +222,8 @@ If able to do so, combat participants can move before _or_ after their attack, a
 
 To perform an attack, roll the _adventurer_ profession die, or d20 if it is an entity with no fighting abilities. The AT for an attack is equal to the target's defense score. This can be further modified by the following:
 
-*   Being behind 50% or more cover will reduce their defense by -2 in addition to any other benefits such as armor.
-*   There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristic.
+* Being behind 50% or more cover will reduce their defense by -2 in addition to any other benefits such as armor.
+* There might be additional factors from -1 to -5 that are related to things like magic, or a creature's special characteristic.
 
 Regardless of the target's defense, a roll of 1 will always hit a target under regular circumstances.
 
@@ -341,7 +243,7 @@ Heavy
 
 \-1
 
-Martial
+Heavy
 
 \-2
 
