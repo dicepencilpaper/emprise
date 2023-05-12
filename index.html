@@ -265,7 +265,11 @@
 
    <h3>Result Shift</h3>
 
-   <p>Another type of modifier is known as <em>Result Shift (RS).</em> These modifiers are used to alter the <em>result</em> of the action, as opposed to the <em>chances</em> of achieving it. The way these are applied is specified in different sections below, as they are applied due to diverse situations and items. A result shift is usually presented as RS (+/-)x, with x being the number of result shifts. For example, a negative result shift of 2 is presented as RS+2.</p></p>
+   <p>Another type of modifier is known as <em>Result Shift (RS).</em> These modifiers are used to alter the <em>result</em> of the action, as opposed to the <em>chances</em> of achieving it. The way these are applied is specified in different sections below, as they are applied due to diverse situations and items. A result shift is usually presented as RS (+/-)x, with x being the number of result shifts. For example, a negative result shift of 2 is presented as RS+2.</p>
+
+   <h3>Gear</h3>
+
+   <p>If the adventurer has specialized gear or equipment that can help with their actions, they will automatically gain RS -1 to their action result.</p>
 
    <h2 id="performing-actions-without-a-profession">Performing actions without a profession</h2>
 
@@ -335,7 +339,7 @@
 
    <h2 id="attacking">Attacking</h2>
 
-   <p>To perform an attack, the base roll will be the <em>adventurer</em> die, or d20 if it is an entity with no fighting abilities. However, this can change depending on the dice value gap between them, as shown below. Tpo find the die to use, first look up the attacker's die used for combat (for adventurers, the <em>adventurer</em> profession die), and then look down the left column and find the target's fighting die. The intersecting value will be the dice needed for the attack.</p>
+   <p>To perform an attack, the base roll will be the <em>adventurer</em> die, or d20 if it is an entity with no fighting abilities. However, this can change depending on the dice value gap between them, as shown below. To find the dice shift, first look up the attacker's die used for combat (for adventurers, the <em>adventurer</em> profession die), and then look down the left column and find the target's fighting die. The intersecting value will be the dice shift that will be applied for the attack.</p>
       
    <table class="center">
 
@@ -354,63 +358,63 @@
       <tbody>
          <tr>
             <td><strong>d4</strong></td>
-            <td>d4</td>
-            <td>d4</td>
-            <td>d4</td>
-            <td>d4</td>
-            <td>d4</td>
-            <td>d4</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
          </tr>
          <tr>
             <td><strong>d6</strong></td>
-            <td>d8</td>
-            <td>d6</td>
-            <td>d4</td>
-            <td>d4</td>
-            <td>d4</td>
-            <td>d4</td>
+            <td>+1</td>
+            <td>0</td>
+            <td>-1</td>
+            <td>-1</td>
+            <td>-1</td>
+            <td>-1</td>
          </tr>
          <tr>
             <td><strong>d8</strong></td>
-            <td>d12</td>
-            <td>d10</td>
-            <td>d8</td>
-            <td>d6</td>
-            <td>d4</td>
-            <td>d4</td>
+            <td>+2</td>
+            <td>+1</td>
+            <td>0</td>
+            <td>-1</td>
+            <td>-2</td>
+            <td>-2</td>
          </tr>
          <tr>
             <td><strong>d10</strong></td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d12</td>
-            <td>d10</td>
-            <td>d8</td>
-            <td>d6</td>
+            <td>+2</td>
+            <td>+2</td>
+            <td>+1</td>
+            <td>0</td>
+            <td>-1</td>
+            <td>-2</td>
          </tr>
          <tr>
             <td><strong>d12</strong></td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d12</td>
-            <td>d10</td>
+            <td>+1</td>
+            <td>+1</td>
+            <td>+1</td>
+            <td>+1</td>
+            <td>0</td>
+            <td>-1</td>
          </tr>
          <tr>
             <td><strong>d20</strong></td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d20</td>
-            <td>d20</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
          </tr>
       </tbody>
 
    </table>
 
-   <p>As an example: a character with a d8 for his <em>adventurer</em> profession would need to use a d10 if their opponent uses a d6 for combat; obviously at a disadvantage. On the other hand, the same adventurer would use a d4 to attack an opponent that has a d12 for fighting!</p>
+   <p>As an example: a character with a d8 for his <em>adventurer</em> profession fighting an opponent that has a fighting skill of d6 would have a DS +1 on their roll, so they need to use a d10. On the other hand, if the same adventurer was fighting an opponent that uses a d12 for combat, they would have a DS -2, so they would use a d4 for the attack.</p>
 
    <h3 id="riposte">Riposte</h3>
 
@@ -475,7 +479,53 @@
 
    </table>
 
-   <p>The player controlling the attacker has the option to choose a less harmful effect to be applied to their target. For example, they might have rolled a 1 with a edged weapon, but might instead choose to <em>stun</em> their opponent.</p>
+Here are the effect descriptions:
+
+<table class="center">
+   <thead>
+      <tr>
+         <th>Effect</th>
+         <th>Description</th>
+      </tr>
+   </thead>
+
+   <tbody>
+      <tr>
+         <td>Break</td>
+         <td>Break a hold.</td>
+      </tr>
+      </tr>
+         <td>Hold</td>
+         <td>Grapples the opponent holding them immobile.</td>
+      </tr>
+      <tr>
+         <td>Grab</td>
+         <td>Escape</td>
+         <td>Slam</td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>Hit</td>
+         <td>Hit</td>
+         <td>Miss</td>
+         <td>Take</td>
+         <td>Miss</td>
+         <td>Hit</td>
+      </tr>
+      <tr>
+         <td>4+</td>
+         <td>Miss</td>
+         <td>Miss</td>
+         <td>Miss</td>
+         <td>Miss</td>
+         <td>Miss</td>
+         <td>Miss</td>
+      </tr>
+   </tbody>
+
+</table>
+
+<p>The player controlling the attacker has the option to choose a less harmful effect to be applied to their target. For example, they might have rolled a 1 with a edged weapon, but might instead choose to <em>stun</em> their opponent.</p>
    <p>Every time a combatant is hit by a successful attack, they will add DS +1 to all their actions, up to a maximum dice shift to d20. </p>
    <p><a href="#contents">Back to Contents</a></p>
 
