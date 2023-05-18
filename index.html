@@ -12,15 +12,9 @@
    <style>
       body {
          font-family: 'Source Serif Pro', sans-serif;
-         background: white;
-         color: black;
+         background: #FFFFFF;
+         color: #000000;
          text-align: justify;
-      }
-
-      h1 {
-         font-family: 'Oldenburg';
-         color: darkgoldenrod;
-         text-align: left;
       }
 
       .subtitle {
@@ -32,18 +26,18 @@
 
       h1 {
          font-family: 'Oldenburg';
-         color: darkgoldenrod;
+         color: #F24405;
          text-align: left;
       }
 
       h2 {
          font-family: 'Oldenburg';
-         color: darkgoldenrod;
+         color: #F24405;
          text-align: left;
       }
 
       th {
-         background-color: goldenrod;
+         background-color: #A62F03;
          color: white;
          text-align: center;
          padding: 4px;
@@ -339,7 +333,7 @@
 
    <h2 id="attacking">Attacking</h2>
 
-   <p>To perform an attack, the base roll will be the <em>adventurer</em> die, or d20 if it is an entity with no fighting abilities. However, this can change depending on the dice value gap between them, as shown below. To find the dice shift, first look up the attacker's die used for combat (for adventurers, the <em>adventurer</em> profession die), and then look down the left column and find the target's fighting die. The intersecting value will be the dice shift that will be applied for the attack.</p>
+   <p>To perform an attack, the base roll will be the <em>adventurer</em> die, or d20 if it is an entity with no fighting abilities. However, this can change depending on the dice value gap between them, as shown below. To find the dice shift, first look up the attacker's die used for combat (for adventurers, the <em>adventurer</em> profession die), and then look down the left column and find the target's fighting die. The intersecting value will be the die to use, with the dice shift presented in parenthesis, that will be applied for the attack.</p>
       
    <table class="center">
 
@@ -358,57 +352,57 @@
       <tbody>
          <tr>
             <td><strong>d4</strong></td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>d4 (0)</td>
+            <td>d4 (0)</td>
+            <td>d4 (0)</td>
+            <td>d4 (0)</td>
+            <td>d4 (0)</td>
+            <td>d4 (0)</td>
          </tr>
          <tr>
             <td><strong>d6</strong></td>
-            <td>+1</td>
-            <td>0</td>
-            <td>-1</td>
-            <td>-1</td>
-            <td>-1</td>
-            <td>-1</td>
+            <td>d8 (+1)</td>
+            <td>d6 (0)</td>
+            <td>d4 (-1)</td>
+            <td>d4 (-1)</td>
+            <td>d4 (-1)</td>
+            <td>d4 (-1)</td>
          </tr>
          <tr>
             <td><strong>d8</strong></td>
-            <td>+2</td>
-            <td>+1</td>
-            <td>0</td>
-            <td>-1</td>
-            <td>-2</td>
-            <td>-2</td>
+            <td>d12 (+2)</td>
+            <td>d10 (+1)</td>
+            <td>d8 (0)</td>
+            <td>d6 (-1)</td>
+            <td>d4 (-2)</td>
+            <td>d4 (-2)</td>
          </tr>
          <tr>
             <td><strong>d10</strong></td>
-            <td>+2</td>
-            <td>+2</td>
-            <td>+1</td>
-            <td>0</td>
-            <td>-1</td>
-            <td>-2</td>
+            <td>d20 (+2)</td>
+            <td>d20 (+2)</td>
+            <td>d12 (+1)</td>
+            <td>d10 (0)</td>
+            <td>d8 (-1)</td>
+            <td>d6 (-2)</td>
          </tr>
          <tr>
             <td><strong>d12</strong></td>
-            <td>+1</td>
-            <td>+1</td>
-            <td>+1</td>
-            <td>+1</td>
-            <td>0</td>
-            <td>-1</td>
+            <td>d20 (+1)</td>
+            <td>d20 (+1)</td>
+            <td>d20 (+1)</td>
+            <td>d20 (+1)</td>
+            <td>d12 (0)</td>
+            <td>d10 (-1)</td>
          </tr>
          <tr>
             <td><strong>d20</strong></td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>d20 (0)</td>
+            <td>d20 (0)</td>
+            <td>d20 (0)</td>
+            <td>d20 (0)</td>
+            <td>d20 (0)</td>
+            <td>d20 (0)</td>
          </tr>
       </tbody>
 
@@ -421,9 +415,9 @@
    <p>The target of an attack, if still conscious and capable, can immediately strike back in return even if it is not their turn in terms of initiative. This is called a riposte, and it makes combat more dynamic, dangerous, and unpredictable. The target of a riposte cannot perform a riposte in return.</p>
    <p>Even after playing their riposte, they will still get to play their turn as originally set by initiative, and in the same manner their target will be able to respond back to the attack with their own riposte, if possible.</p>
 
-   <h2 id="combat-effects">Combat effects</h2>
+   <h2 id="combat-effects">Attack types & effects</h2>
 
-   <p>Based on the final result of a successful attack roll, certain combat effects will be applied to the target.</p>
+   <p>Based on the final result of a successful attack roll, certain combat effects will be applied to the target based on the type of attack.</p>
 
    <table class="center">
       <thead>
@@ -478,6 +472,11 @@
       </tbody>
 
    </table>
+
+<h3>Blunt</h3>
+
+
+
 
 Here are the effect descriptions:
 
